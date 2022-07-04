@@ -1,11 +1,14 @@
 using UnityEngine;
 
-public class PlayerController : MyCharacterController
+namespace Player
 {
-    public FloatingJoystick joystick;
-    void FixedUpdate()
+    public class PlayerController : MyCharacterController
     {
-        var moveDirection = new Vector3(joystick.Horizontal, 0, joystick.Vertical);
-        playerMove(moveDirection);
+        public FloatingJoystick joystick;
+        void FixedUpdate()
+        {
+            var moveDirection = new Vector3(joystick.Horizontal, 0, joystick.Vertical);
+            playerMove(moveDirection);
+        }
     }
 }

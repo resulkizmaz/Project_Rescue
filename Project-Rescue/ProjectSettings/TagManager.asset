@@ -3,7 +3,13 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - outdoor
+  - boss
+  - archer
+  - gunner
+  - tank
+  - worker
   layers:
   - Default
   - TransparentFX
