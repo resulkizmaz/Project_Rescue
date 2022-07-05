@@ -2,7 +2,40 @@
 * THIS PROJECT MADE FOR ATLAM GAMES RECRUITMENT PROGRESS
 * Using the code, distributing the prototype or using the plugin without my permission is strictly PROHIBITED.
 --------------------------------------------------------------------------------------------------------------
+                             
+                             ATLAM GAMES PROTOTYPE 1 - PROJECT RESCUE
 
+Karakterimiz küp gezegeninde keşif görevlerine çıkan bir asker
+gezegenizmizde türümüz asker olmak amak için üretilip donanımlar yüklenip diğer gezegenlere keşiflere gidiyoruz
+kapsül gezegenine keşif gezisine çıkan bir komutan kapsül gezegenindeki düşmnlar tarafından esir alınıyor
+bizde o gezegene gidip komutanı kurtarmaya çalışıyoruz
+
+End Game Scene : Komutanımızı kurtarırız.
+
+1. level : en kolay düşmanlar - yakın dövüşçü düşmanlar- yanımıza ulaştığında bize az hasar veren 10 asker.
+
+2. level : yakın dövüşçü düşmanlar - az zarar veriyorlar ama sayıları daha fazla (Bizim gezegene girdiğimiz duymuşlar)
+
+3. level : ZIRHLI yakın dövüşçü VE uzak dövüşçü düşmanlar - yakın dövüşçüler tek mermide ölmüyor uzak dövüşçüler belli bir mesafeden ateş edebiliyor.
+
+4. level : ZIRHLI yakın dövüşçü VE uzak dövüşçü - savaş mekaniği aynı - sayıları daha fazla
+
+5. level : yakın dövüşçüler VE silahlılar VE gezegenin BOSS'u
+
+
+WORKERS         : 2 mermide ölen - yanımıza ulaştığında saniyede canımızın % 5 i hasar veren düşmanlar.
+
+ARMED WARİORS : 5 mermide ölen - yanımıza ulaştığında saniyede canımızın % 15 i hasar veren düşmanlar.
+
+ARCHERS         : 3 mermide ölen - isabet halinde canımızın % 10 u hasar veren düşmanlar. ( SANİYEDE 1 ATTACK )
+
+GUNNERS         : 2 mermide ölen - isabet haninde canımızın % 25 i hasar veren düşmanlar. ( SANİYEDE 5 ATTACK )
+
+BOSS            : 25 mermide ölen - SAVAŞ MEKANİĞİ DÜŞÜNÜLECEK!!
+
+--------------------------------------------------------------------------------------------------------------
+                                            GORUSME
+--------------------------------------------------------------------------------------------------------------
 
 Gerekenler,
 
@@ -70,39 +103,3 @@ Atlam Games
 - [ ] player shoot
 - [ ] enemy attack
 - [ ] enemy shoot
-
-
-
-
------------- ATLAM GAMES PROTOTYPE 1 - PROJECT RESCUE -------------
-
-
-Karakterimiz küp gezegeninde keşif görevlerine çıkan bir asker
-gezegenizmizde türümüz asker olmak amak için üretilip donanımlar yüklenip diğer gezegenlere keşiflere gidiyoruz
-kapsül gezegenine keşif gezisine çıkan bir komutan kapsül gezegenindeki düşmnlar tarafından esir alınıyor
-bizde o gezegene gidip komutanı kurtarmaya çalışıyoruz
-
-End Game Scene : Komutanımızı kurtarırız.
-
-1. level : en kolay düşmanlar - yakın dövüşçü düşmanlar- yanımıza ulaştığında bize az hasar veren 10 asker.
-
-2. level : yakın dövüşçü düşmanlar - az zarar veriyorlar ama sayıları daha fazla (Bizim gezegene girdiğimiz duymuşlar)
-
-3. level : ZIRHLI yakın dövüşçü VE uzak dövüşçü düşmanlar - yakın dövüşçüler tek mermide ölmüyor uzak dövüşçüler belli bir mesafeden ateş edebiliyor.
-
-4. level : ZIRHLI yakın dövüşçü VE uzak dövüşçü - savaş mekaniği aynı - sayıları daha fazla
-
-5. level : yakın dövüşçüler VE silahlılar VE gezegenin BOSS'u
-
-
-WORKERS         : 2 mermide ölen - yanımıza ulaştığında saniyede canımızın % 5 i hasar veren düşmanlar.
-
-ARMED WARİORS : 5 mermide ölen - yanımıza ulaştığında saniyede canımızın % 15 i hasar veren düşmanlar.
-
-ARCHERS         : 3 mermide ölen - isabet halinde canımızın % 10 u hasar veren düşmanlar. ( SANİYEDE 1 ATTACK )
-
-GUNNERS         : 2 mermide ölen - isabet haninde canımızın % 25 i hasar veren düşmanlar. ( SANİYEDE 5 ATTACK )
-
-BOSS            : 25 mermide ölen - SAVAŞ MEKANİĞİ DÜŞÜNÜLECEK!!
-
-
