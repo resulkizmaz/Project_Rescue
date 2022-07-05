@@ -2,6 +2,7 @@
 PROJE ADI : ATLAM GAMES HYPER-CASUAL PROTOTYPE 1
 
 OYUN ADI  : PROJECT RESCUE
+
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 OYUN HAKKINDA ;
@@ -17,7 +18,7 @@ Karakter Mekanikleri ;
 
 Oyunun Hikayesi ;
 
--Karakterimiz küp gezegeninde materyal arayışı için keşif görevlerine çıkan bir asker.
+- Karakterimiz küp gezegeninde materyal arayışı için keşif görevlerine çıkan bir asker.
 Gezegenizmizde türümüz asker olmak amak için üretilip donanımlar yüklenip diğer gezegenlere keşiflere gönderiliyor.
 Kapsül gezegenine keşif gezisine çıkan bir komutan kapsül gezegenindeki düşmanlar tarafından esir alınıyor.
 Bizde söz konusu gezegene gidip komutanı kurtarmaya çalışıyoruz.
