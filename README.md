@@ -62,6 +62,11 @@ NOT: Eğer oyununuz Hyper Casual olduğu halde bu türlerden birisine girmediği
 
 - Third Party Asset kullanımı serbesttir.
 
+* Joystick Packet
+* Cinemachine
+* ProBuild
+* ProGrid
+
 - Prototiplerin içeriğinde amaç, oynanış ve oyun sonu ögeleri belirgin olmalıdır.
 
 - Diğer Hyper Casual oyunlardan esinlenilebilir ancak klon oyun olmamalıdır.
