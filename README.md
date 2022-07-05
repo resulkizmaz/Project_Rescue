@@ -2,7 +2,7 @@
 * THIS PROJECT MADE FOR ATLAM GAMES RECRUITMENT PROGRESS
 * Using the code, distributing the prototype or using the plugin without my permission is strictly PROHIBITED!
 
-* (Tarafımdan onay alınmadan; kodların kullanımı, prototip'in yayılması veya kullanılması kesinlikle YASAKTIR!)
+* (Tarafımdan onay alınmadan; kodların kullanımı, prototip'in kullanılması veya yayılması kesinlikle YASAKTIR!)
 --------------------------------------------------------------------------------------------------------------
                              
                                                ATLAM GAMES PROTOTYPE 1 - PROJECT RESCUE
