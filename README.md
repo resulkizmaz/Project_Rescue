@@ -1,14 +1,10 @@
---------------------------------------------------------------------------------------------------------------
-* THIS PROJECT MADE FOR ATLAM GAMES RECRUITMENT PROGRESS
-* Using the code, distributing the prototype or using the plugin without my permission is strictly PROHIBITED!
 
-* (Tarafımdan onay alınmadan; kodların kullanımı, prototip'in kullanılması veya yayılması kesinlikle YASAKTIR!)
---------------------------------------------------------------------------------------------------------------
 
 PROJE ADI : ATLAM GAMES HYPER-CASUAL PROTOTYPE 1
+
 OYUN ADI  : PROJECT RESCUE
 
-HAKKINDA;
+OYUN HAKKINDA ;
 
 Karakterimiz küp gezegeninde keşif görevlerine çıkan bir asker
 gezegenizmizde türümüz asker olmak amak için üretilip donanımlar yüklenip diğer gezegenlere keşiflere gidiyoruz
@@ -122,3 +118,11 @@ Atlam Games
 - [ ] player shoot
 - [ ] enemy attack
 - [ ] enemy shoot
+
+
+--------------------------------------------------------------------------------------------------------------
+* THIS PROJECT MADE FOR ATLAM GAMES RECRUITMENT PROGRESS
+* Using the code, distributing the prototype or using the plugin without my permission is strictly PROHIBITED!
+
+* (Tarafımdan onay alınmadan; kodların kullanımı, prototip'in kullanılması veya yayılması kesinlikle YASAKTIR!)
+--------------------------------------------------------------------------------------------------------------
