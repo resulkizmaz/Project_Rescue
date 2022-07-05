@@ -790,6 +790,8 @@ MonoBehaviour:
   rigidBody: {fileID: 8524763336435769612}
   speed: 404
   joystick: {fileID: 0}
+  health: 0
+  maxHealth: 100
 --- !u!95 &4605530158654207528
 Animator:
   serializedVersion: 3

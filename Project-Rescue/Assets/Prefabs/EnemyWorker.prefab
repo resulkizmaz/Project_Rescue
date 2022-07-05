@@ -365,7 +365,7 @@ Transform:
   - {fileID: 1111163895562836463}
   m_Father: {fileID: 0}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 180, z: 0}
 --- !u!33 &2258342945687337633
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -443,7 +443,7 @@ Rigidbody:
   m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0
-  m_Constraints: 80
+  m_Constraints: 84
   m_CollisionDetection: 0
 --- !u!114 &5087723574832978767
 MonoBehaviour:
@@ -459,7 +459,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   rigidBody: {fileID: 5087723574832978766}
   speed: 280
-  player: {fileID: 0}
 --- !u!95 &5087723574832978764
 Animator:
   serializedVersion: 3

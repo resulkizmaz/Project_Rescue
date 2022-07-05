@@ -705,7 +705,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   rigidBody: {fileID: 5185661034061586015}
   speed: 200
-  player: {fileID: 0}
 --- !u!95 &5185661034061586013
 Animator:
   serializedVersion: 3
