@@ -55,8 +55,21 @@ Başarılar dileriz.
 
 Atlam Games
 
+- To Do
 
-ATLAM GAMES PROTOTYPE 1 - PROJECT RESCUE
+[X] player move
+[X] enemy track
+[ ] player death
+[ ] enemy death
+[ ] player shoot
+[ ] enemy attack
+[ ] enemy shoot
+
+
+
+
+------------ ATLAM GAMES PROTOTYPE 1 - PROJECT RESCUE -------------
+
 
 Karakterimiz küp gezegeninde keşif görevlerine çıkan bir asker
 gezegenizmizde türümüz asker olmak amak için üretilip donanımlar yüklenip diğer gezegenlere keşiflere gidiyoruz
@@ -85,3 +98,5 @@ ARCHERS         : 3 mermide ölen - isabet halinde canımızın % 10 u hasar ver
 GUNNERS         : 2 mermide ölen - isabet haninde canımızın % 25 i hasar veren düşmanlar. ( SANİYEDE 5 ATTACK )
 
 BOSS            : 25 mermide ölen - SAVAŞ MEKANİĞİ DÜŞÜNÜLECEK!!
+
+
