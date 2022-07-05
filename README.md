@@ -33,6 +33,16 @@ GUNNERS         : 2 mermide ölen - isabet haninde canımızın % 25 i hasar ver
 
 BOSS            : 25 mermide ölen - SAVAŞ MEKANİĞİ DÜŞÜNÜLECEK!!
 
+
+TOOLS AND ASSETS;
+
+* Joystick Packet
+* Cinemachine
+* ProBuild
+* ProGrid
+
+
+
 --------------------------------------------------------------------------------------------------------------
                                                     
                                                       
@@ -61,11 +71,6 @@ NOT: Eğer oyununuz Hyper Casual olduğu halde bu türlerden birisine girmediği
 - Değerlendirmeye gönderilecek prototiplerin sıfırdan oluşturulması gerekmektedir.
 
 - Third Party Asset kullanımı serbesttir.
-
-* Joystick Packet
-* Cinemachine
-* ProBuild
-* ProGrid
 
 - Prototiplerin içeriğinde amaç, oynanış ve oyun sonu ögeleri belirgin olmalıdır.
 
