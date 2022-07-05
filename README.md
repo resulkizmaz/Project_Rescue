@@ -3,7 +3,7 @@
 * Using the code, distributing the prototype or using the plugin without my permission is strictly PROHIBITED.
 --------------------------------------------------------------------------------------------------------------
                              
-                             ATLAM GAMES PROTOTYPE 1 - PROJECT RESCUE
+                                               ATLAM GAMES PROTOTYPE 1 - PROJECT RESCUE
 
 Karakterimiz küp gezegeninde keşif görevlerine çıkan bir asker
 gezegenizmizde türümüz asker olmak amak için üretilip donanımlar yüklenip diğer gezegenlere keşiflere gidiyoruz
@@ -34,7 +34,9 @@ GUNNERS         : 2 mermide ölen - isabet haninde canımızın % 25 i hasar ver
 BOSS            : 25 mermide ölen - SAVAŞ MEKANİĞİ DÜŞÜNÜLECEK!!
 
 --------------------------------------------------------------------------------------------------------------
-                                            GORUSME
+                                                    
+                                                      
+                                                      GORUSME
 
 Gerekenler,
 
@@ -95,7 +97,8 @@ Atlam Games
 
 
 --------------------------------------------------------------------------------------------------------------
-                                                To Do
+                                                  
+                                                              To Do
 
 - [X] player move
 - [X] enemy track
