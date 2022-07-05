@@ -1,14 +1,3 @@
-Merhaba,
-
-Başvurunuz için teşekkür ederiz.
-
-Alım süreci 2 aşamalıdır.
-
-Aşama 1 : Prototiplerin tamamlanması
-Aşama 2 : Görüşme
-
-Alımlarda en önemli kriterimiz yapılması gereken 2 prototip olacağı için dikkatlice adımları izlemenizi öneriyoruz.
-
 Gerekenler,
 
 - 2 adet Hyper Casual prototip hazırlanması ve teslim tarihinden önce iletilmesi
