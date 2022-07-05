@@ -57,13 +57,13 @@ Atlam Games
 
 - To Do
 
-[X] player move
-[X] enemy track
-[ ] player death
-[ ] enemy death
-[ ] player shoot
-[ ] enemy attack
-[ ] enemy shoot
+- [X] player move
+- [X] enemy track
+- [ ] player death
+- [ ] enemy death
+- [ ] player shoot
+- [ ] enemy attack
+- [ ] enemy shoot
 
 
 
