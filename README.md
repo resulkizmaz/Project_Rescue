@@ -1,9 +1,13 @@
 --------------------------------------------------------------------------------------------------------------
 * THIS PROJECT MADE FOR ATLAM GAMES RECRUITMENT PROGRESS
-* Using the code, distributing the prototype or using the plugin without my permission is strictly PROHIBITED.
+* Using the code, distributing the prototype or using the plugin without my permission is strictly PROHIBITED!
+
+(Tarafımdan onay alınmadan; kodların kullanımı, prototip'in yayılması veya kullanılması kesinlikle YASAKTIR!)
 --------------------------------------------------------------------------------------------------------------
                              
                                                ATLAM GAMES PROTOTYPE 1 - PROJECT RESCUE
+
+HAKKINDA;
 
 Karakterimiz küp gezegeninde keşif görevlerine çıkan bir asker
 gezegenizmizde türümüz asker olmak amak için üretilip donanımlar yüklenip diğer gezegenlere keşiflere gidiyoruz
@@ -34,7 +38,7 @@ GUNNERS         : 2 mermide ölen - isabet haninde canımızın % 25 i hasar ver
 BOSS            : 25 mermide ölen - SAVAŞ MEKANİĞİ DÜŞÜNÜLECEK!!
 
 
-TOOLS AND ASSETS;
+TOOLS - ASSETS;
 
 * Joystick Packet
 * Cinemachine
@@ -48,7 +52,7 @@ TOOLS AND ASSETS;
                                                       
                                                       GORUSME
 
-Gerekenler,
+YAPILMASI GEREKENLER ;
 
 - 2 adet Hyper Casual prototip hazırlanması ve teslim tarihinden önce iletilmesi
 
