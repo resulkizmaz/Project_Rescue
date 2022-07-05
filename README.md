@@ -1,5 +1,5 @@
-*THIS PROJECT MADE FOR ATLAM GAMES RECRUITMENT PROGRESS
-*Using the code, distributing the prototype or using the plugin without my permission is strictly PROHIBITED.
+* THIS PROJECT MADE FOR ATLAM GAMES RECRUITMENT PROGRESS
+* Using the code, distributing the prototype or using the plugin without my permission is strictly PROHIBITED.
 
 
 Gerekenler,
