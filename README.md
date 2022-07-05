@@ -1,3 +1,7 @@
+*THIS PROJECT MADE FOR ATLAM GAMES RECRUITMENT PROGRESS
+*Using the code, distributing the prototype or using the plugin without my permission is strictly PROHIBITED.
+
+
 Gerekenler,
 
 - 2 adet Hyper Casual prototip hazırlanması ve teslim tarihinden önce iletilmesi
