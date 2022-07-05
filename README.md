@@ -1,7 +1,11 @@
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------
-PROJE ADI : ATLAM GAMES HYPER-CASUAL PROTOTYPE 1
+PROJE ADI  : ATLAM GAMES HYPER-CASUAL PROTOTYPE 1
 
-OYUN ADI  : PROJECT RESCUE
+OYUN ADI   : PROJECT RESCUE
+
+GELİŞTİREN : RESUL KIZMAZ ( GAME DEVELOPER )
+
+GÖRÜŞÜLEN  : ONAT DOĞAN - ATLAM GAMES ( PROJECT MANAGER )
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------
 
