@@ -5,7 +5,8 @@
 * (Tarafımdan onay alınmadan; kodların kullanımı, prototip'in kullanılması veya yayılması kesinlikle YASAKTIR!)
 --------------------------------------------------------------------------------------------------------------
                              
-                                               ATLAM GAMES PROTOTYPE 1 - PROJECT RESCUE
+                                               PROJE ADI : ATLAM GAMES PROTOTYPE 1 
+                                               OYUN ADI  : PROJECT RESCUE
 
 HAKKINDA;
 
