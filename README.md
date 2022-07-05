@@ -1,15 +1,26 @@
-
-
+---------------------------------------------------------------------------------------------------------------------------------------------------------------
 PROJE ADI : ATLAM GAMES HYPER-CASUAL PROTOTYPE 1
 
 OYUN ADI  : PROJECT RESCUE
+---------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 OYUN HAKKINDA ;
 
-Karakterimiz küp gezegeninde keşif görevlerine çıkan bir asker
-gezegenizmizde türümüz asker olmak amak için üretilip donanımlar yüklenip diğer gezegenlere keşiflere gidiyoruz
-kapsül gezegenine keşif gezisine çıkan bir komutan kapsül gezegenindeki düşmnlar tarafından esir alınıyor
-bizde o gezegene gidip komutanı kurtarmaya çalışıyoruz
+Oyunum 3D bir oyun.
+
+Karakter Kontrolleri ; Tek parmak kullanılarak karakterimizi hareket ettiriyoruz.
+
+Karakter Mekanikleri ;
+
+* Düşmanlar ile karakterimiz arasında belirli bir mesafe oluştuktan sonra karakterimiz otomatik ateş etmeye başlıyor.
+* Bir sonraki level'e geçiş yapmak için karakterimizin belirli olan noktaya (kapıya) ulaşması gerekmekte.
+
+Oyunun Hikayesi ;
+
+-Karakterimiz küp gezegeninde materyal arayışı için keşif görevlerine çıkan bir asker.
+Gezegenizmizde türümüz asker olmak amak için üretilip donanımlar yüklenip diğer gezegenlere keşiflere gönderiliyor.
+Kapsül gezegenine keşif gezisine çıkan bir komutan kapsül gezegenindeki düşmanlar tarafından esir alınıyor.
+Bizde söz konusu gezegene gidip komutanı kurtarmaya çalışıyoruz.
 
 End Game Scene : Komutanımızı kurtarırız.
 
@@ -34,6 +45,7 @@ GUNNERS         : 2 mermide ölen - isabet haninde canımızın % 25 i hasar ver
 
 BOSS            : 25 mermide ölen - SAVAŞ MEKANİĞİ DÜŞÜNÜLECEK!!
 
+---------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 TOOLS - ASSETS;
 
@@ -43,11 +55,9 @@ TOOLS - ASSETS;
 * ProGrid
 
 
-
---------------------------------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------------------------------------------------------------------------
                                                     
-                                                      
-                                                      GORUSME
+GORUSME NOTLARI :
 
 YAPILMASI GEREKENLER ;
 
@@ -107,9 +117,9 @@ Başarılar dileriz.
 Atlam Games
 
 
---------------------------------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------------------------------------------------------------------------
                                                   
-                                                              To Do
+TO DO :
 
 - [X] player move
 - [X] enemy track
@@ -120,9 +130,9 @@ Atlam Games
 - [ ] enemy shoot
 
 
---------------------------------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------------------------------------------------------------------------
 * THIS PROJECT MADE FOR ATLAM GAMES RECRUITMENT PROGRESS
 * Using the code, distributing the prototype or using the plugin without my permission is strictly PROHIBITED!
 
 * (Tarafımdan onay alınmadan; kodların kullanımı, prototip'in kullanılması veya yayılması kesinlikle YASAKTIR!)
---------------------------------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------------------------------------------------------------------------
