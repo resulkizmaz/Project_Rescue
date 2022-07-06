@@ -1,4 +1,7 @@
+using System.Collections;
+using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 namespace Player
 {
@@ -6,14 +9,25 @@ namespace Player
     {
         public FloatingJoystick joystick;
 
+        [SerializeField] GameObject deathPannel;
+
+        [HideInInspector] public int damageOfEnemyType = 5;
+
         public int health;
         public int maxHealth;
-        
-        private float timePassed;
+
+        List<int> DPSTickTimers = new List<int>();
+
+
+        public bool nextLevel;
 
         private void Start()
         {
             health = maxHealth;
+
+            Time.timeScale = 1f; // Zamanýn hýzýyla oynarken garantiye almak adýna illaki 1 kere kullanýrým.
+            nextLevel = false;
+            deathPannel.SetActive(false);
         }
         void FixedUpdate()
         {
@@ -21,24 +35,44 @@ namespace Player
             playerMove(moveDirection);
         }
 
-        private void OnCollisionStay(Collision collision)
+        private void OnTriggerEnter(Collider other)
         {
-            timePassed += Time.deltaTime;
-
-            if (collision.gameObject.CompareTag("worker"))
+            if (other.CompareTag("outdoor"))
             {
-                
-            }
-
-            if (collision.gameObject.CompareTag("tank"))
-            {
-
+                SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+                nextLevel = true;
             }
         }
 
-        public void damagePerSecond()
+        public void damagePerSecond(int ticks)
         {
-            
+            if (DPSTickTimers.Count <= 0)
+            {
+                DPSTickTimers.Add(ticks);
+                StartCoroutine(DPS());
+            }
+            else
+            {
+                DPSTickTimers.Add(ticks);
+            }
+            if (health <= 0)
+            {
+                deathPannel.SetActive(true);
+                Time.timeScale = 0;
+            }
+        }
+        IEnumerator DPS() // Her saniyede 1 sefer istenilen hasarý vermesi için kullandým
+        {
+            while (DPSTickTimers.Count > 0)
+            {
+                for (int i = 0; i < DPSTickTimers.Count; i++)
+                {
+                    DPSTickTimers[i]--;
+                }
+                health -= damageOfEnemyType;
+                DPSTickTimers.RemoveAll(i => i == 0);
+                yield return new WaitForSeconds(1.01f);
+            }
         }
 
 

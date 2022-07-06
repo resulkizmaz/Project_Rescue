@@ -337,8 +337,8 @@ GameObject:
   - component: {fileID: 433028178788486029}
   - component: {fileID: 5000883050737891900}
   - component: {fileID: 5087723574832978766}
-  - component: {fileID: 5087723574832978767}
   - component: {fileID: 5087723574832978764}
+  - component: {fileID: 8857770528350639794}
   m_Layer: 0
   m_Name: EnemyWorker
   m_TagString: worker
@@ -445,20 +445,6 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 84
   m_CollisionDetection: 0
---- !u!114 &5087723574832978767
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5087723574832978761}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ad0944ad05d028c4899881b4f4dd651a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  rigidBody: {fileID: 5087723574832978766}
-  speed: 280
 --- !u!95 &5087723574832978764
 Animator:
   serializedVersion: 3
@@ -478,6 +464,20 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &8857770528350639794
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5087723574832978761}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a4cf8f88196ee4f4a813d2c20efef509, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  rigidBody: {fileID: 5087723574832978766}
+  speed: 300
 --- !u!1 &7709582955928513544
 GameObject:
   m_ObjectHideFlags: 0

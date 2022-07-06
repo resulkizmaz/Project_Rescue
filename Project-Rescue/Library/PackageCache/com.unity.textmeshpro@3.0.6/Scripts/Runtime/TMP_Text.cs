@@ -6075,11 +6075,13 @@ namespace TMPro
             {
                 m_Underline = new SpecialCharacter(character, 0);
             }
+            /*
             else
             {
                 if (!TMP_Settings.warningsDisabled)
                     Debug.LogWarning("The character used for Underline is not available in font asset [" + fontAsset.name + "].", this);
             }
+            */
         }
 
 

@@ -582,8 +582,8 @@ GameObject:
   - component: {fileID: 535504268102438554}
   - component: {fileID: 4902913927267974955}
   - component: {fileID: 5185661034061586015}
-  - component: {fileID: 5185661034061586012}
   - component: {fileID: 5185661034061586013}
+  - component: {fileID: 4217321633007291175}
   m_Layer: 0
   m_Name: EnemyTank
   m_TagString: tank
@@ -691,20 +691,6 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 84
   m_CollisionDetection: 0
---- !u!114 &5185661034061586012
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5185661034061586014}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ad0944ad05d028c4899881b4f4dd651a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  rigidBody: {fileID: 5185661034061586015}
-  speed: 200
 --- !u!95 &5185661034061586013
 Animator:
   serializedVersion: 3
@@ -724,6 +710,20 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &4217321633007291175
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5185661034061586014}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 27eebf43c0a14b94c955afe28089c4a3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  rigidBody: {fileID: 5185661034061586015}
+  speed: 200
 --- !u!1 &7751225228572354847
 GameObject:
   m_ObjectHideFlags: 0
