@@ -947,4 +947,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   rigidBody: {fileID: 8687664799078614088}
-  speed: 200
+  speed: 100
+  bulletSpawnerRight: {fileID: 6954498617201686472}
+  bulletSpawnerLeft: {fileID: 8279125427185681138}
+  gunnerBullet: {fileID: 6084798338575973456, guid: dc46b07a918ffaa44a8843793f206d11, type: 3}

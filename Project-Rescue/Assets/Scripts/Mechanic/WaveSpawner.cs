@@ -4,11 +4,9 @@ using TMPro;
 
 public class WaveSpawner : MonoBehaviour
 {
-    [SerializeField] Transform enemyPrefab;
-    [SerializeField] Transform enemyPrefab1;
+    [SerializeField] Transform enemyPrefab;    
     [SerializeField] Transform spawnPoint;
-    [SerializeField] Transform spawnPoint1;
-
+    
     [HideInInspector] public int waveCount = 0;
 
     public TextMeshProUGUI waveCountText;
@@ -21,28 +19,29 @@ public class WaveSpawner : MonoBehaviour
 
     private void Update()
     {
-        if (waveCount<11)
+        InitWave();
+    }
+    public void InitWave()
+    {
+        if (waveCount < 11)
         {
             if (countDown <= 0)
             {
                 if (waveCount < 2)
                 {
                     spawnPoint.position = new Vector3(6, 0, -60);
-                    spawnPoint1.position = new Vector3(18, 0, -41);
                     StartCoroutine(SpawnWave());
                     countDown = timeBetweenWaves;
                 }
                 else if (waveCount < 4)
                 {
                     spawnPoint.position = new Vector3(18, 0, -41);
-                    spawnPoint1.position = new Vector3(-6, 0, -15);
                     StartCoroutine(SpawnWave());
                     countDown = timeBetweenWaves;
                 }
                 else if (waveCount < 7)
                 {
                     spawnPoint.position = new Vector3(-6, 0, -15);
-                    spawnPoint1.position = new Vector3(-6, 0, 25);
                     StartCoroutine(SpawnWave());
                     countDown = timeBetweenWaves;
                 }
@@ -54,7 +53,7 @@ public class WaveSpawner : MonoBehaviour
                 }
             }
         }
-        
+
         countDown -= Time.deltaTime;
     }
 
@@ -74,6 +73,5 @@ public class WaveSpawner : MonoBehaviour
     void SpawnEnemy()
     {
         Instantiate(enemyPrefab, spawnPoint.position, spawnPoint.rotation);
-        Instantiate(enemyPrefab1, spawnPoint1.position, spawnPoint.rotation);
     }
 }

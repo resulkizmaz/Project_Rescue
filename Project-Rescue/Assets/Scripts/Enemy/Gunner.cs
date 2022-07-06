@@ -4,8 +4,7 @@ using Player;
 
 public class Gunner : RangeEnemy 
 {
-    private void Update()
-    {
-        
-    }
+    [SerializeField] GameObject bulletSpawnerRight;
+    [SerializeField] GameObject bulletSpawnerLeft;
+    [SerializeField] GameObject gunnerBullet;
 }

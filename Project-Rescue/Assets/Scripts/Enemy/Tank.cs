@@ -9,7 +9,8 @@ public class Tank : MeleeEnemy
     {
         if (collision.gameObject.GetComponent<PlayerController>() != null)
         {
-            playerScript.damagePerSecond(2);
+            playerScript.damageOfEnemyType = 5.5f;
+            playerScript.damagePerSecond(3);
         }
 
     }

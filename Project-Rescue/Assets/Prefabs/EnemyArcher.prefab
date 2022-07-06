@@ -237,7 +237,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   rigidBody: {fileID: 527176810273871074}
-  speed: 200
+  speed: 150
+  ArrowSpawner: {fileID: 4915079554452229676}
+  archerArrow: {fileID: 0}
 --- !u!1 &527176810411339534
 GameObject:
   m_ObjectHideFlags: 0

@@ -10,7 +10,8 @@ public class Worker : MeleeEnemy
     {
         if (collision.gameObject.GetComponent<PlayerController>() != null)
         {
-            playerScript.damagePerSecond(1);
+            playerScript.damageOfEnemyType = 2.5f;
+            playerScript.damagePerSecond(3);
         }
     }
 }

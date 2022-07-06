@@ -791,10 +791,14 @@ MonoBehaviour:
   rigidBody: {fileID: 8524763336435769612}
   speed: 404
   joystick: {fileID: 0}
-  damageOfEnemyType: 5
+  deathPannel: {fileID: 0}
+  playerBullet: {fileID: 6084798338575973456, guid: a71818a9c1263c24f99844a2d9582986, type: 3}
+  bulletHolderRight: {fileID: 2411162151196392565}
+  bulletHolderLeft: {fileID: 7824662394347756768}
+  damageOfEnemyType: 0
   health: 0
   maxHealth: 100
-  DPSTickTimers: 
+  nextLevel: 0
 --- !u!95 &4605530158654207528
 Animator:
   serializedVersion: 3
@@ -1148,8 +1152,9 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5271093012948519164}
+  - component: {fileID: 2998782760246088329}
   m_Layer: 0
-  m_Name: projectileHolderRight
+  m_Name: BulletHolderRight
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1163,12 +1168,27 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2411162151196392565}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.618, y: 0.025, z: 0.916}
+  m_LocalPosition: {x: 0.62, y: 0.025, z: 1.1}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1550944614632234703}
   m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2998782760246088329
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2411162151196392565}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7096079567f6c4946b4e650b6e0b1aed, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  bulletSpawnPoint: {fileID: 5271093012948519164}
+  bulletPrefab: {fileID: 6084798338575973456, guid: a71818a9c1263c24f99844a2d9582986, type: 3}
+  bulletSpeed: 50
 --- !u!1 &7824662394347756768
 GameObject:
   m_ObjectHideFlags: 0
@@ -1178,8 +1198,9 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1721966697395429193}
+  - component: {fileID: 3977100232975191221}
   m_Layer: 0
-  m_Name: projectileHolderLeft
+  m_Name: BulletHolderLeft
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1193,9 +1214,24 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7824662394347756768}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.632, y: 0.025, z: 0.916}
+  m_LocalPosition: {x: -0.62, y: 0.025, z: 1.1}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1550944614632234703}
   m_RootOrder: 11
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &3977100232975191221
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7824662394347756768}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7096079567f6c4946b4e650b6e0b1aed, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  bulletSpawnPoint: {fileID: 1721966697395429193}
+  bulletPrefab: {fileID: 6084798338575973456, guid: a71818a9c1263c24f99844a2d9582986, type: 3}
+  bulletSpeed: 50

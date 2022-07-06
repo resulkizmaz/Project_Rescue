@@ -4,12 +4,7 @@ using Player;
 
 public class Archer : RangeEnemy 
 {
-    private void Start()
-    {
-        
-    }
-    private void Update()
-    {
-        
-    }
+    [SerializeField] GameObject ArrowSpawner;
+    [SerializeField] GameObject archerArrow;
+   
 }

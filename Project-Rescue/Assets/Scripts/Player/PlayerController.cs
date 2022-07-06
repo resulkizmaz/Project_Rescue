@@ -10,10 +10,13 @@ namespace Player
         public FloatingJoystick joystick;
 
         [SerializeField] GameObject deathPannel;
+        [SerializeField] GameObject playerBullet;
+        [SerializeField] GameObject bulletHolderRight;
+        [SerializeField] GameObject bulletHolderLeft;
 
-        [HideInInspector] public int damageOfEnemyType = 5;
+        [HideInInspector] public float damageOfEnemyType = 0;
 
-        public int health;
+        public float health;
         public int maxHealth;
 
         List<int> DPSTickTimers = new List<int>();
@@ -32,7 +35,7 @@ namespace Player
         void FixedUpdate()
         {
             var moveDirection = new Vector3(joystick.Horizontal, 0, joystick.Vertical);
-            playerMove(moveDirection);
+            Moving(moveDirection);
         }
 
         private void OnTriggerEnter(Collider other)
@@ -57,6 +60,7 @@ namespace Player
             }
             if (health <= 0)
             {
+                health = 0;
                 deathPannel.SetActive(true);
                 Time.timeScale = 0;
             }
@@ -71,13 +75,14 @@ namespace Player
                 }
                 health -= damageOfEnemyType;
                 DPSTickTimers.RemoveAll(i => i == 0);
-                yield return new WaitForSeconds(1.01f);
+                yield return new WaitForSeconds(0.75f);
             }
         }
 
 
 
+    }//class
 
 
-    }
-}
+
+}//nameSpace
