@@ -58,6 +58,15 @@ TOOLS - ASSETS;
 * Cinemachine
 * ProBuild
 * ProGrid
+* Sounds Assets ;
+-
+-
+-
+-
+-
+-
+-
+-
 
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------
@@ -128,11 +137,21 @@ TO DO :
 
 - [X] player move
 - [X] enemy track
-- [ ] player death
+- [X] player death
 - [ ] enemy death
 - [ ] player shoot
-- [ ] enemy attack
-- [ ] enemy shoot
+- [X] melee enemy attack
+- [ ] range enemy shoot
+- [ ] sounds effects
+- [X] character designed
+- [X] enemies designed
+- [X] Level 1 designed
+- [ ] Level 2 designed
+- [ ] Level 3 designed
+- [ ] Level 4 designed
+- [ ] Level 5 designed
+- [ ] login scene designed
+- [ ] all levels scene designed
 
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------
