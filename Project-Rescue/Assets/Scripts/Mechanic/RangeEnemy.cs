@@ -1,10 +1,6 @@
 ﻿using UnityEngine;
 using Player;
 
-public class RangeEnemy : MeleeEnemy
+public class RangeEnemy : MonoBehaviour
 {
-    private void FixedUpdate()
-    {
-
-    }
 }

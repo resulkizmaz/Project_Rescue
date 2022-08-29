@@ -57,6 +57,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Joystick Pack\Scripts\Joysticks\DynamicJoystick.cs" />
+    <Compile Include="Assets\Scripts\Player\PlayerProjectile.cs" />
     <Compile Include="Assets\Scripts\Enemy\Worker.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\ShaderPropAnimator.cs" />
     <Compile Include="Assets\Samples\Cinemachine\2.6.15\Cinemachine Example Scenes\Shared\Scripts\PlayerMovePhysics.cs" />
@@ -93,6 +94,8 @@
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\ChatController.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\VertexJitter.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TextMeshProFloatingText.cs" />
+    <Compile Include="Assets\Scripts\Enemy\EnemyProjectile.cs" />
+    <Compile Include="Assets\Scripts\Player\PlayerGun.cs" />
     <Compile Include="Assets\Scripts\Mechanic\UIManager.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_TextEventHandler.cs" />
     <Compile Include="Assets\Joystick Pack\Scripts\Joysticks\FloatingJoystick.cs" />
@@ -129,13 +132,10 @@
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_TextInfoDebugTool.cs" />
     <Compile Include="Assets\Samples\Cinemachine\2.6.15\Cinemachine Example Scenes\Shared\Scripts\ExampleHelpWindow.cs" />
     <Compile Include="Assets\Samples\Cinemachine\2.6.15\Cinemachine Example Scenes\Shared\Scripts\ActivateCameraWithDistance.cs" />
+    <Compile Include="Assets\Scripts\Enemy\EnemyGun.cs" />
     <Compile Include="Assets\Samples\Cinemachine\2.6.15\Cinemachine Example Scenes\Scenes\Anywhere Door\TagChanger.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark01.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_TextEventCheck.cs" />
-    <Compile Include="Assets\Scripts\Enemy\EnemyProjectile.cs" />
-    <Compile Include="Assets\Scripts\Player\PlayerProjectile.cs" />
-    <Compile Include="Assets\Scripts\Enemy\EnemyGun.cs" />
-    <Compile Include="Assets\Scripts\Player\PlayerGun.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
