@@ -1,11 +1,8 @@
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------
-PROJE ADI  : ATLAM GAMES HYPER-CASUAL PROTOTYPE 1
 
 OYUN ADI   : PROJECT RESCUE
 
 GELİŞTİREN : RESUL KIZMAZ ( GAME DEVELOPER )
-
-GÖRÜŞÜLEN  : ONAT DOĞAN - ATLAM GAMES ( PROJECT MANAGER )
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------
 
@@ -147,7 +144,6 @@ TO DO :
 
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------
-* THIS PROJECT MADE FOR ATLAM GAMES RECRUITMENT PROGRESS
 * Using the code, distributing the prototype or using the plugin without my permission is strictly PROHIBITED!
 
 * (Tarafımdan onay alınmadan; kodların kullanımı, prototip'in kullanılması veya yayılması kesinlikle YASAKTIR!)
