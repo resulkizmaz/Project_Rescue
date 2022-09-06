@@ -3,10 +3,10 @@ using UnityEngine.SceneManagement;
 using TMPro;
 using Player;
 
-public class UIManager : MonoBehaviour
+public class UIManager : GameManager
 {
 
-    [SerializeField] PlayerController player;
+    [SerializeField] PlayerController playerController;
     [SerializeField] WaveSpawner waveCount;
 
     [SerializeField] TextMeshProUGUI infoText;
@@ -27,7 +27,7 @@ public class UIManager : MonoBehaviour
         {
             Destroy(infoText);
         }*/
-        if (player.nextLevel==true)
+        if (playerController.nextLevel==true)
         {
             Time.timeScale = 0;
             nextLevelPannel.SetActive(true);
