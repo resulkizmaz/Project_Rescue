@@ -1,15 +1,10 @@
 using UnityEngine;
 using UnityEngine.SceneManagement;
-using TMPro;
-using Player;
 
-public class UIManager : GameManager
+public class UIManager : MonoBehaviour 
 {
-
-    [SerializeField] PlayerController playerController;
     [SerializeField] WaveSpawner waveCount;
 
-    [SerializeField] TextMeshProUGUI infoText;
     [SerializeField] GameObject nextLevelPannel;
     [SerializeField] GameObject settingsPannel;
     [SerializeField] GameObject settingsButton;
@@ -20,20 +15,6 @@ public class UIManager : GameManager
     {
         nextLevelPannel.SetActive(false);
         settingsPannel.SetActive(false);
-    }
-    private void FixedUpdate()
-    {
-        /*if (player.joystick.Horizontal != 0 || player.joystick.Vertical != 0) 
-        {
-            Destroy(infoText);
-        }*/
-        if (playerController.nextLevel==true)
-        {
-            Time.timeScale = 0;
-            nextLevelPannel.SetActive(true);
-            waveCount.waveCountText.text = "";
-            
-        }
     }
 
     public void PlayAgainButton() 
